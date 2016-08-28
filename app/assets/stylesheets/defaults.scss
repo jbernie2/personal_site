@@ -1,0 +1,25 @@
+body {
+  background-color: $white;
+  color: $black;
+}
+
+a:link {
+  color: $black;
+}
+
+a:visited {
+  color: $black;
+}
+
+a:hover {
+  color: $grey;
+}
+
+a:active {
+  color: $black;
+}
+
+.navbar-fixed-top {
+  padding-top: 20px;
+  background: $white;
+}

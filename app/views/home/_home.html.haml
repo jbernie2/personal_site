@@ -1,0 +1,8 @@
+#home.container.text-center.full-screen
+  %div{ style: 'margin-top: 40vh;' }
+    = render 'titlizer', title: 'John Bernier'
+    .small-headline
+      - nav_links[0..-2].each do |link|
+        = link_to *link
+        = '|'
+      = link_to *nav_links[-1]

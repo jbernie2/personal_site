@@ -1,0 +1,5 @@
+- title.upcase.split(" ").each do |word|
+  %span.titlize-first-letter
+    = word.first
+  %span.titlize-word
+    = word[1..-1]

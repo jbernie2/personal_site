@@ -1,0 +1,7 @@
+.row.navbar-fixed-top
+  %span.home-icon
+    = link_to "JB", "#home"
+  .center-nav-items.pull-right
+    - nav_links.each do |link|
+      %span.small-headline-span
+        = link_to *link

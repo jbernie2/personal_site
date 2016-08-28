@@ -1,0 +1,27 @@
+.home-icon {
+  padding-left: 90px;
+  letter-spacing: -3px;
+  font-size: 64px;
+  a, u {
+    text-decoration: none;
+  }
+}
+
+.titlize-first-letter {
+  letter-spacing: -11px;
+  font-size: $titlized-large-font-size;
+}
+
+.titlize-word {
+  letter-spacing: -4px;
+  font-size: $titlized-small-font-size;
+}
+
+.small-headline-span {
+  font-size: $small-headline-font-size;
+  padding-right: $medium-spacing;
+}
+
+.small-headline {
+  font-size: $small-headline-font-size;
+}
