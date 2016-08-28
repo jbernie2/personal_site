@@ -4,9 +4,11 @@
     .col-md-10
       %h2
         My name is John Bernier and I am a Software Engineer based out of New York City. 
-        I am currently employed by Gust as a full stack web developer. I work mostly 
-        with Ruby, Rails, JavaScript, and PostgreSQL. In my spare time, I enjoy 
-        writing music, playing guitar, rock climbing, and cooking."
+        I am currently employed by 
+        = link_to "Gust", "https://www.gust.com"
+        as a full stack web developer. I work mostly
+        with Ruby, Rails, JavaScript, and PostgreSQL. In my spare time, I enjoy
+        writing music, playing guitar, rock climbing, and cooking.
 
   #contact{style: 'padding-top: 100px;' }
     = render 'titlizer', title: 'Contact'
@@ -19,4 +21,3 @@
           = mail_to email, "john.b.bernier@gmail.com,"
           or you can find me on
           = link_to "LinkedIn", linked_in
-    
