@@ -7,16 +7,11 @@
   }
 }
 
-.titlize-first-letter {
-  letter-spacing: -11px;
+.headline {
+  font-variant: small-caps;
   font-size: $titlized-large-font-size;
 }
-
-.titlize-word {
-  letter-spacing: -4px;
-  font-size: $titlized-small-font-size;
-}
-
+  
 .small-headline-span {
   font-size: $small-headline-font-size;
   padding-right: $medium-spacing;

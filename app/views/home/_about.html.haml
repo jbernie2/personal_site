@@ -1,5 +1,6 @@
 #about.container.full-screen{style: 'padding-top: 100px;' }
-  = render 'titlizer', title: 'About'
+  .headline
+    About
   .row
     .col-md-10
       %h2
@@ -11,7 +12,8 @@
         writing music, playing guitar, rock climbing, and cooking.
 
   #contact{style: 'padding-top: 100px;' }
-    = render 'titlizer', title: 'Contact'
+    .headline
+      Contact
     - linked_in = "https://www.linkedin.com/in/john-bernier-24687aa6"
     - email = "john.b.bernier@gmail.com"
     .row
