@@ -1,0 +1,12 @@
+#contact{style: 'padding-top: 100px;' }
+  .headline
+    Contact
+  - linked_in = "https://www.linkedin.com/in/john-bernier-24687aa6"
+  - email = "john.b.bernier@gmail.com"
+  .row
+    .col-md-10
+      %h2
+        Feel free to email any inqueries to 
+        = mail_to email, "john.b.bernier@gmail.com,"
+        or you can find me on
+        = link_to "LinkedIn", linked_in

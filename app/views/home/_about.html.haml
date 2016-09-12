@@ -1,4 +1,4 @@
-#about.container.full-screen{style: 'padding-top: 100px;' }
+#about{style: 'padding-top: 100px;' }
   .headline
     About
   .row
@@ -11,15 +11,3 @@
         with Ruby, Rails, JavaScript, and PostgreSQL. In my spare time, I enjoy
         writing music, playing guitar, rock climbing, and cooking.
 
-  #contact{style: 'padding-top: 100px;' }
-    .headline
-      Contact
-    - linked_in = "https://www.linkedin.com/in/john-bernier-24687aa6"
-    - email = "john.b.bernier@gmail.com"
-    .row
-      .col-md-10
-        %h2
-          Feel free to email any inqueries to 
-          = mail_to email, "john.b.bernier@gmail.com,"
-          or you can find me on
-          = link_to "LinkedIn", linked_in
